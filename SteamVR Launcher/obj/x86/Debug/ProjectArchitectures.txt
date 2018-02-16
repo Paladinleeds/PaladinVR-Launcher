@@ -1,0 +1,1 @@
+E:\Users\Daniel\Source\Repos\SteamVR Launcher\SteamVR Launcher\SteamVR Launcher.csproj;x86

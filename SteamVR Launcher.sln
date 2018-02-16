@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamVR Launcher", "SteamVR Launcher\SteamVR Launcher.csproj", "{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Debug|ARM.ActiveCfg = Debug|ARM
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Debug|ARM.Build.0 = Debug|ARM
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Debug|ARM.Deploy.0 = Debug|ARM
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Debug|x64.ActiveCfg = Debug|x64
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Debug|x64.Build.0 = Debug|x64
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Debug|x64.Deploy.0 = Debug|x64
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Debug|x86.ActiveCfg = Debug|x86
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Debug|x86.Build.0 = Debug|x86
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Debug|x86.Deploy.0 = Debug|x86
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Release|ARM.ActiveCfg = Release|ARM
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Release|ARM.Build.0 = Release|ARM
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Release|ARM.Deploy.0 = Release|ARM
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Release|x64.ActiveCfg = Release|x64
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Release|x64.Build.0 = Release|x64
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Release|x64.Deploy.0 = Release|x64
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Release|x86.ActiveCfg = Release|x86
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Release|x86.Build.0 = Release|x86
+		{FFDD40E0-08A3-4A7B-B65D-33EB96C20398}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B3964DA-6C76-4513-BEA7-A3F1F2D53997}
+	EndGlobalSection
+EndGlobal
