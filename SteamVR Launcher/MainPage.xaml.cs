@@ -22,10 +22,11 @@ namespace SteamVR_Launcher
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        private async void LaunchURI_Click(object sender, RoutedEventArgs e)
+        /*private async void LaunchURI_Click(object sender, RoutedEventArgs e)
         {
             // The URI to launch
-            var uriSteamVR = new Uri(@"steam://run/250820");
+            string uriSteamVR = @"steam://run/250820";
+            var uri = new Uri(uriSteamVR); 
 
             // Launch the URI
             var success = await Windows.System.Launcher.LaunchUriAsync(uriSteamVR);
@@ -48,11 +49,38 @@ namespace SteamVR_Launcher
             }
         }
 
+        // The URI to launch
+        string uriToLaunch = @"http://www.contoso.com/SomeFile.docx";
+        var uri = new Uri(uriToLaunch);
+
+        async void DefaultLaunch()
+        {
+            // Set the URI’s content type
+            var options = new Windows.System.LauncherOptions();
+            options.ContentType = "application/vnd.ms-word.document.12";
+
+            // Launch the URI with the content type
+            var success = await Windows.System.Launcher.LaunchUriAsync(uri, options);
+
+            if (success)
+            {
+                // URI launched
+            }
+            else
+            {
+                // URI launch failed
+            }
+        }*/
+
         public MainPage()
         {
             this.InitializeComponent();
+            LaunchURI();
         }
 
-        
+        private async void LaunchURI()
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("steam://rungameid/250820"));
+        }
     }
 }
